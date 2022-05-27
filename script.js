@@ -1,4 +1,4 @@
-const hyperlink = document.querySelectorAll(".hyperlink a[href^='#']");
+const hyperlink = document.querySelector(".hyperlink a[href^='#']");
 
 hyperlink.addEventListener("click", function (e) {
   e.preventDefault();
