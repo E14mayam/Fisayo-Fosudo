@@ -55,48 +55,50 @@ body {
   }
 }
 
-.About-wrapper{
-  h1{
+.About-wrapper {
+  h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
   }
-    img{
-        border-radius: 30px;
-    }
+  img {
+    border-radius: 30px;
+  }
 }
 
-.Video-wrapper{
-  h1{
+.Video-wrapper {
+  h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
   }
-  .videos{
-
+  .videos {
+    iframe{
+      border-radius: 5px;
+    }
   }
 }
 
-.hyperlink{
-    background-color: $text-color;
-    height: 10vh;
-    justify-content: center;
-    align-items: center;
-    a{
-        text-decoration: none;
-        color: $secondary-color;
-        text-transform: uppercase;
-    }
+.hyperlink {
+  background-color: $text-color;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: $secondary-color;
+    text-transform: uppercase;
+  }
 }
 
-.email{
-    position: fixed;
-   background-color: $secondary-color;
-   padding: 10px 10px;
-   border-radius: 50%;
-   box-shadow: 2px 2px 10px #555454;
-   right: 10px;
-   bottom: 10px;
-       img{
-           width: 30px;
-           height: 30px;
-       }
+.email {
+  position: fixed;
+  background-color: $secondary-color;
+  padding: 10px 10px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px #555454;
+  right: 10px;
+  bottom: 10px;
+  img {
+    width: 30px;
+    height: 30px;
+  }
 }

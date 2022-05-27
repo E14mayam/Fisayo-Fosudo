@@ -71,6 +71,10 @@ body {
   letter-spacing: 2px;
 }
 
+.Video-wrapper .videos iframe {
+  border-radius: 5px;
+}
+
 .hyperlink {
   background-color: #000000;
   height: 10vh;
