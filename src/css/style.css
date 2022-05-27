@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url("/images/repeated-square.webp");
+}
+
+.header h1 {
+  color: #000000;
+}
+
+.header img {
+  border-radius: 30px;
+  -webkit-box-shadow: 20px 20px #000000;
+          box-shadow: 20px 20px #000000;
+}
+
+.social-wrapper {
+  color: #000000;
+}
+
+.social-wrapper .social-items {
+  height: 20vh;
+}
+
+.social-wrapper .social-items h1 {
+  font-weight: 500;
+}
+
+.social-wrapper .social-items h3 {
+  font-weight: 400;
+}
+
+.social-wrapper .social-items img {
+  max-width: 50px;
+}
+
+.social-wrapper .social-items a {
+  color: #f7f7f7;
+  background-color: #000000;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.social-wrapper .social-items a img {
+  width: 20px;
+}
+
+.About-wrapper img {
+  border-radius: 30px;
+}
+
+.hyperlink {
+  background-color: #000000;
+  height: 10vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hyperlink a {
+  text-decoration: none;
+  color: #f7f7f7;
+  text-transform: uppercase;
+}
+
+.email {
+  position: fixed;
+  background-color: #f7f7f7;
+  padding: 10px 10px;
+  border-radius: 50%;
+  right: 10px;
+  bottom: 10px;
+}
+
+.email img {
+  width: 30px;
+  height: 30px;
+}
+/*# sourceMappingURL=style.css.map */
